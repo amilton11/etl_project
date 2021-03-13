@@ -1,20 +1,26 @@
 # etl_project
 
-Group: business_up_top
-Proposal: ETL on Order Sales Data and Dow Jones Industrial Average
-Transformation Type: (see below) Data Base Type: Relational Why This: Impact of the stock market on sales orders
+Group: business_up_top\n
+Proposal: ETL on Order Sales Data and Dow Jones Industrial Average\n
+Transformation Type: (see below)\n 
+Data Base Type: Relational\n 
 
-Extract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc). 
-Data Source: Kaggle (but 2 different sources) 
-Data Format: .CSV
 
-Transform: what data cleaning or transformation was required.
-1. Convert dates in excel to a consistent format
-2. Read in both CSV files into JN separately
-3. Convert all date(s) in both files to Pandas DateTime for consistentcy
-4. Change column names to lower case and underscored for SQL to read in
-5. Select only the columns needed
-6. Set up schema in pgAdmin
-7. Jin tables on [TBD]
+Extract:\n 
+Data Source: Both files came from separate sources on Kaggle\n
+Data Format: .csv\n
+
+Transform:\n
+1. Convert dates in excel to a consistent format\n
+2. Read in both CSV files into JN separately\n
+3. Convert all date(s) in both files to Pandas DateTime for consistentcy\n
+4. Change column names to lower case and underscored for SQL to read in\n
+5. Select only the columns needed\n
+6. Set up schema in pgAdmin\n
+7. Jin tables on [TBD]\n
 
 Load: the final database, tables/collections, and why this was chosen.
+Final DB: [TBD]\n
+Tables: [TBD]\n
+Why: The purpose of this DB is compare daily sales aginst stock\n
+

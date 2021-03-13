@@ -23,4 +23,3 @@ Load: the final database, tables/collections, and why this was chosen.
 Final DB: [TBD]\n
 Tables: [TBD]\n
 Why: The purpose of this DB is compare daily sales aginst stock\n
-
